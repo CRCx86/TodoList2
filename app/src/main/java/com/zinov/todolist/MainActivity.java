@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+
+
     private void addItem(View v) {
         EditText input = findViewById(R.id.editTextTextPersonName);
         String itemText = input.getText().toString();
